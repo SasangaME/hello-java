@@ -1,5 +1,7 @@
 package org.sasanga;
 
+import org.sasanga.basics.Variables;
+
 /**
  * Hello world!
  *
@@ -8,7 +10,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        var a = 2;
+        Variables.demo();
         System.out.println( "Hello World!");
     }
 }
