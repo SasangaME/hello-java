@@ -2,7 +2,7 @@ package org.sasanga.basics;
 
 public class Variables {
     public static void demo() {
-        var message = "Variables";
+        final var message = "Variables";
 
         var variableObj = new VariableClass();
         variableObj.setMark(56);
@@ -11,6 +11,15 @@ public class Variables {
 
         var person = new Person(1, "Sasanga");
         System.out.println(person.name());
+
+        // Demonstrate type widening and narrowing
+        int integerVal = 2;
+        double widenedVal = integerVal; // Widening
+        int narrowedVal = (int) widenedVal; // Narrowing
+
+        System.out.println("Original int: " + integerVal);
+        System.out.println("Widened to double: " + widenedVal);
+        System.out.println("Narrowed back to int: " + narrowedVal);
     }
 }
 
