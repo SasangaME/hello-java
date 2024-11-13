@@ -1,6 +1,6 @@
 package org.sasanga;
 
-import org.sasanga.basics.DateTimeDemo;
+import org.sasanga.oop.Oop;
 
 /**
  * Hello world!
@@ -10,7 +10,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        DateTimeDemo.demo();
+        Oop.demo();
         System.out.println( "Hello World!");
     }
 }
