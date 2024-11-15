@@ -1,7 +1,6 @@
 package org.sasanga;
 
-import org.sasanga.oop.Oop;
-
+import org.sasanga.oop.DynamicBinding;
 /**
  * Hello world!
  *
@@ -10,7 +9,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        Oop.demo();
+        DynamicBinding.demo();
         System.out.println( "Hello World!");
     }
 }
