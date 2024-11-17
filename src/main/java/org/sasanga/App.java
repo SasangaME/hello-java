@@ -1,6 +1,6 @@
 package org.sasanga;
 
-import org.sasanga.oop.InstanceInitializer;
+import org.sasanga.oop.InterfaceDemo;
 
 /**
  * Hello world!
@@ -10,6 +10,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        new InstanceInitializer();
+        InterfaceDemo.demo();
     }
 }
