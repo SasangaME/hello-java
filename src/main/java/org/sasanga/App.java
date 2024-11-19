@@ -1,6 +1,6 @@
 package org.sasanga;
 
-import org.sasanga.oop.InterfaceDemo;
+import org.sasanga.basics.Wrapper;
 
 /**
  * Hello world!
@@ -10,6 +10,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        InterfaceDemo.demo();
+        Wrapper.demo();
     }
 }
