@@ -1,15 +1,16 @@
-package org.sasanga.basics;
+package org.sasanga.oop;
 
 import java.util.Optional;
 
 public class Wrapper {
+
     public static void demo() {
         int a = 20;
         Integer objA = a;
+        int b = objA.intValue();
         System.out.println(objA);
         objA = null;
         System.out.println(objA);
-        int b = objA.intValue();
 
         Optional<Integer> objB = Optional.of(a);
         System.out.println(objB.get());
