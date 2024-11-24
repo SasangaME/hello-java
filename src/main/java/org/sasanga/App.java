@@ -1,6 +1,6 @@
 package org.sasanga;
 
-import org.sasanga.basics.Strings;
+import org.sasanga.oop.ClassOperations;
 
 /**
  * Hello world!
@@ -10,6 +10,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        Strings.demo();
+        ClassOperations.demo();
     }
 }
